@@ -12,10 +12,27 @@ public class Q04 {
 	and fill it by reading doubles from the Scanner in parameter. The method should then return the filled
 	array.
 	 */
+
+	
 	public static double[] fillDoubleArray (int n, Scanner in) {
-		return null; //fix me
+		double [] array = new double [n];
+		return helper;
 	}
 
+	public static double helper (int[]array, int i, Scanner in) {
+		
+		if (i = array.length()) {
+			return array;
+		} else { double n = in.nextdouble()
+			array[i] = n;
+			return helper (array, i++);
+
+		}
+	}
+
+
+
+	
 	/*
 	We wish to make a program that draws user-defined polygons. You should first request the user to specify
 	how many sides the polygon should have. Then, use the fillDoubleArray method from the previous

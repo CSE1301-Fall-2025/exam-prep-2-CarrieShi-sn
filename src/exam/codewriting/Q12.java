@@ -5,7 +5,11 @@ import edu.princeton.cs.introcs.StdDraw;
 public class Q12 {
 
 	public static void rDraw ( double xCtr , double yCtr , double size ) {
-		//your code here
+		if (size < 0.002) {
+			return;
+		} else {
+			
+		}
 	}
 
 	public static void main(String[] args) {

@@ -17,7 +17,7 @@ public class Q09 {
 	this problem if a loop is used at any point.
 	 */
 	public static int numDigits (int x) {
-		return 0; //fix me
+		
 	}
 
 	public static void main ( String[] args ) {

@@ -5,7 +5,9 @@ import edu.princeton.cs.introcs.StdDraw;
 public class Q01 {
 
 	public static void recursiveCarpet ( double xCtr , double yCtr , double halfLength ) {
-		//your code here
+		
+
+		
 	}
 
 	public static void main(String[] args) {
